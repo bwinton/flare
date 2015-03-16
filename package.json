@@ -1,11 +1,11 @@
 {
-  "name": "provider-switcher",
-  "title": "Search Provider Switcher",
+  "name": "flare",
+  "title": "Flare",
   "id": "jid1-eXch4jnjFJS8aA",
-  "description": "An add-on to test a couple of search provider switching UIs.",
+  "description": "An add-on to test a new awesomebar dropdown ui.",
   "author": "Blake Winton <bwinton@latte.ca>",
   "license": "MPL 2.0",
-  "repository": "https://github.com/bwinton/provider-switcher",
+  "repository": "https://github.com/bwinton/flare",
   "version": "0.1.0",
   "scripts": {
     "pretest": "node_modules/jshint/bin/jshint lib/*.js",
@@ -15,25 +15,6 @@
     "build": "cfx xpi --update-link https://people.mozilla.com/~bwinton/$npm_package_name/$npm_package_name.xpi --update-url https://people.mozilla.com/~bwinton/$npm_package_name/$npm_package_name.update.rdf",
     "amo": "cfx xpi"
   },
-  "preferences": [
-    {
-      "name": "format",
-      "title": "Format",
-      "description": "Which version of the provider switcher you want.",
-      "type": "menulist",
-      "value": 0,
-      "options": [
-        {
-          "value": "0",
-          "label": "Default"
-        },
-        {
-          "value": "1",
-          "label": "Inline Settings"
-        }
-      ]
-    }
-  ],
   "devDependencies": {
     "jshint": "^2.6.0"
   }
