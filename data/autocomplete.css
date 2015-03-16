@@ -1,3 +1,10 @@
 .autocomplete-richlistbox {
   border: 1px solid red;
 }
+
+/**
+ * It looks like we can style the elements!
+ */
+.autocomplete-richlistitem {
+  -moz-box-orient: horizontal;
+}

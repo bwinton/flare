@@ -1,0 +1,37 @@
+<richlistitem
+  image="moz-anno:favicon:http://www.mozilla.org/2005/made-up-favicon/3-1426525756445"
+  url="https://www.mozilla.org/en-US/about/"
+  title="About Us"
+  type="bookmark"
+  text="mo"
+  class="autocomplete-richlistitem"
+  style="border: 1px solid rebeccapurple;">
+
+  <xul:hbox align="center" class="ac-title-box">
+    <xul:image xbl:inherits="src=image" class="ac-site-icon" src="moz-anno:favicon:http://www.mozilla.org/2005/made-up-favicon/2-1426525756444"/>
+    <xul:hbox anonid="title-box" class="ac-title" flex="1" onunderflow="_doUnderflow('_title');" onoverflow="_doOverflow('_title');">
+      <xul:description anonid="title" class="ac-normal-text ac-comment" xbl:inherits="selected">Get Involved</xul:description>
+    </xul:hbox>
+    <xul:label anonid="title-overflow-ellipsis" xbl:inherits="selected" class="ac-ellipsis-after ac-comment" value="…" style="visibility: hidden;"/>
+    <xul:hbox anonid="extra-box" class="ac-extra" align="center" hidden="true">
+      <xul:image class="ac-result-type-tag"/>
+      <xul:label class="ac-normal-text ac-comment" xbl:inherits="selected" value=":"/>
+      <xul:description anonid="extra" class="ac-normal-text ac-comment" xbl:inherits="selected"/>
+    </xul:hbox>
+    <xul:image anonid="type-image" class="ac-type-icon ac-result-type-bookmark" xbl:inherits="selected"/>
+  </xul:hbox>
+
+
+  <xul:hbox align="center" class="ac-url-box">
+    <xul:spacer class="ac-site-icon"/>
+    <xul:image class="ac-action-icon"/>
+    <xul:hbox anonid="url-box" class="ac-url" flex="1" onunderflow="_doUnderflow('_url');" onoverflow="_doOverflow('_url');">
+      <xul:description anonid="url" class="ac-normal-text ac-url-text" xbl:inherits="selected type" type="bookmark">
+        https://www.<span xmlns="http://www.w3.org/1999/xhtml" class="ac-emphasize-text">mo</span>zilla.org/en-US/contribute/
+      </xul:description>
+      <xul:description anonid="action" class="ac-normal-text ac-action-text" xbl:inherits="selected type" type="bookmark"/>
+    </xul:hbox>
+    <xul:label anonid="url-overflow-ellipsis" xbl:inherits="selected" class="ac-ellipsis-after ac-url-text" value="…" style="visibility: hidden;"/>
+    <xul:spacer class="ac-type-icon"/>
+  </xul:hbox>
+</richlistitem>
