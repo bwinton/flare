@@ -7,4 +7,5 @@
  */
 .autocomplete-richlistitem {
   -moz-box-orient: horizontal;
+  border: 1px solid rebeccapurple;
 }
