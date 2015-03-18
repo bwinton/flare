@@ -9,3 +9,17 @@
   -moz-box-orient: horizontal;
   border: 1px solid rebeccapurple;
 }
+
+.autocomplete-richlistitem .ac-action-text,
+.autocomplete-richlistitem .ac-url-text {
+  color: #00a1f2 !important;
+}
+
+.autocomplete-richlistitem[actiontype="switchtab"] .ac-action-text {
+  color: #03a56f !important;
+}
+
+.autocomplete-richlistitem[selected="true"] .ac-action-text,
+.autocomplete-richlistitem[selected="true"] .ac-url-text {
+  color: #FFF !important;
+}
